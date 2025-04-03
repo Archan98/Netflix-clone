@@ -1,0 +1,393 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+#main{
+    background-image: url(Assets/Images/bg.jpg);
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+#background{
+    height: 90vh;
+    width: 100%;
+    opacity: 0.67;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    color: white;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    width: 80vw;
+    height: 67px;
+    justify-content: space-between;
+    margin: auto;
+}
+
+nav img{
+    position: relative;
+    width: 170px;
+    margin-top: 2%;
+    z-index: 1;
+}
+
+nav button{
+    background-color: rgb(229, 9, 20);
+    color: white;
+    width: 80px;
+    height: 33px;
+    position: relative;
+    z-index: 1;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20%;
+    font-weight: 700;
+    transition-duration: 250ms;
+}
+
+nav button:hover{
+    background-color: rgba(229, 9, 20, 0.85);
+    color: rgba(255, 255, 255, 0.9);
+    cursor: pointer;
+}
+
+#hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    height: calc(100% - 67px);
+    position: relative;
+}
+
+#one{
+    font-size: 50px;
+    font-weight: 1000;
+    text-align: center;
+}
+
+#two{
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 35px;
+}
+
+#three{
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+#getStarted{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 4rem;
+    width: 100%;
+}
+
+#getStarted input{
+    height: 3.5rem;
+    width: 25%;
+    margin: 2px;
+    border: 2px solid grey;
+    border-radius: 5px;
+    padding-left: 20px;
+    font-size: 15px;
+    background: transparent;
+    color: white;
+}
+
+#getStarted button{
+    height: 3.75rem;
+    width: 16%;
+    margin: 2px;
+    background-color: rgb(229, 9, 20);;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+    transition-duration: 250ms;
+}
+
+#getStarted input::placeholder{
+    color: grey;
+}
+
+#getStarted button:hover{
+    background-color: rgba(229, 9, 20, 0.85);
+    color: rgba(255, 255, 255, 0.9);
+    cursor: pointer;
+}
+
+#border{
+    background-color: #de0d1f;
+    height: 5px;
+}
+
+h2{
+    background-color: #02040a;
+    color: white;
+    padding: 50px 0 0 125px;
+}
+
+#Trending{
+    background-color: #02040a;
+    display: flex;
+    padding: 20px 0 20px 160px;
+}
+
+#Trending #one1{
+    background-image: url(Assets/Images/img1.jpg);
+    height: 230px;
+    width: 170px;
+    background-size: cover;
+    background-position: center;
+    border: none;
+    border-radius: 0.5rem;
+}
+
+#Trending #one2{
+    background-image: url(Assets/Images/img2.jpg);
+    height: 230px;
+    width: 170px;
+    background-size: cover;
+    background-position: center;
+    border: none;
+    border-radius: 0.5rem;
+    margin-left: 40px;
+}
+
+#Trending #one3{
+    background-image: url(Assets/Images/img3.jpg);
+    height: 230px;
+    width: 170px;
+    background-size: cover;
+    background-position: center;
+    border: none;
+    border-radius: 0.5rem;
+    margin-left: 40px;
+}
+
+#Trending #one4{
+    background-image: url(Assets/Images/img4.jpg);
+    height: 230px;
+    width: 170px;
+    background-size: cover;
+    background-position: center;
+    border: none;
+    border-radius: 0.5rem;
+    margin-left: 40px;
+}
+
+#Trending #one5{
+    background-image: url(Assets/Images/img5.jpg);
+    height: 230px;
+    width: 170px;
+    background-size: cover;
+    background-position: center;
+    border: none;
+    border-radius: 0.5rem;
+    margin-left: 40px;
+}
+
+#Trending #one6{
+    background-image: url(Assets/Images/img6.jpg);
+    height: 230px;
+    width: 170px;
+    background-size: cover;
+    background-position: center;
+    border: none;
+    border-radius: 0.5rem;
+    margin-left: 40px;
+}
+
+#Trending span{
+    color: #dbdbdb;
+    font-size: 100px;
+    font-weight: 700;
+    position: relative;
+    top: 120px;
+    left: -20px;
+}
+
+#Trending #o{
+    color: #000000;
+    font-size: 90px;
+    font-weight: 700;
+    position: relative;
+    top: 120px;
+    left: -70px;
+}
+
+#Trending #t{
+    color: #000000;
+    font-size: 90px;
+    font-weight: 700;
+    position: relative;
+    top: 120px;
+    left: -70px;
+}
+
+#Trending #th{
+    color: #000000;
+    font-size: 90px;
+    font-weight: 700;
+    position: relative;
+    top: 120px;
+    left: -70px;
+}
+
+#Trending #fo{
+    color: #000000;
+    font-size: 90px;
+    font-weight: 700;
+    position: relative;
+    top: 120px;
+    left: -70px;
+}
+
+#Trending #f{
+    color: #000000;
+    font-size: 90px;
+    font-weight: 700;
+    position: relative;
+    top: 120px;
+    left: -70px;
+}
+
+#Trending #s{
+    color: #000000;
+    font-size: 90px;
+    font-weight: 700;
+    position: relative;
+    top: 120px;
+    left: -70px;
+}
+
+#Trending #one1:hover{
+    cursor: pointer;
+    height: 240px;
+    width: 180px;
+    transition-duration: 250ms;
+    span{
+        font-size: 110px;
+        font-weight: 710;
+        left: -21px;
+        transition-duration: 250ms;
+    }
+    #o{
+        font-size: 100px;
+        font-weight: 710;
+        left: -75px;
+        transition-duration: 250ms;
+    }
+}
+
+#Trending #one2:hover{
+    cursor: pointer;
+    height: 240px;
+    width: 180px;
+    transition-duration: 250ms;
+    span{
+        font-size: 110px;
+        font-weight: 710;
+        left: -21px;
+        transition-duration: 250ms;
+    }
+    #t{
+        font-size: 100px;
+        font-weight: 710;
+        left: -75px;
+        transition-duration: 250ms;
+    }
+}
+
+#Trending #one3:hover{
+    cursor: pointer;
+    height: 240px;
+    width: 180px;
+    transition-duration: 250ms;
+    span{
+        font-size: 110px;
+        font-weight: 710;
+        left: -21px;
+        transition-duration: 250ms;
+    }
+    #th{
+        font-size: 100px;
+        font-weight: 710;
+        left: -75px;
+        transition-duration: 250ms;
+    }
+}
+
+#Trending #one4:hover{
+    cursor: pointer;
+    height: 240px;
+    width: 180px;
+    transition-duration: 250ms;
+    span{
+        font-size: 110px;
+        font-weight: 710;
+        left: -21px;
+        transition-duration: 250ms;
+    }
+    #fo{
+        font-size: 100px;
+        font-weight: 710;
+        left: -75px;
+        transition-duration: 250ms;
+    }
+}
+
+#Trending #one5:hover{
+    cursor: pointer;
+    height: 240px;
+    width: 180px;
+    transition-duration: 250ms;
+    span{
+        font-size: 110px;
+        font-weight: 710;
+        left: -21px;
+        transition-duration: 250ms;
+    }
+    #f{
+        font-size: 100px;
+        font-weight: 710;
+        left: -75px;
+        transition-duration: 250ms;
+    }
+}
+
+#Trending #one6:hover{
+    cursor: pointer;
+    height: 240px;
+    width: 180px;
+    transition-duration: 250ms;
+    span{
+        font-size: 110px;
+        font-weight: 710;
+        left: -21px;
+        transition-duration: 250ms;
+    }
+    #s{
+        font-size: 100px;
+        font-weight: 710;
+        left: -75px;
+        transition-duration: 250ms;
+    }
+}
